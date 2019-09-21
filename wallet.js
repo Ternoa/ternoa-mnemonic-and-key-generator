@@ -15,7 +15,7 @@ const password = process.env.PASSWORD;
 var walletDetails = [];
 
 //generate mnemonic
-const mnemonic = bip39.generateMnemonic();
+const mnemonic = bip39.generateMnemonic(256);
 
 //generate key
 const privateKeyGen = pkutils.getPrivateKeyFromMnemonic(mnemonic);
