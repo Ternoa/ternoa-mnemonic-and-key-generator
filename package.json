@@ -1,12 +1,12 @@
 {
-	"name": "ethereum-mnemonic-privatekey-utils",
-	"version": "1.0.5",
-	"description": "generate private key via mnemonics (algorithm match metamask)",
+	"name": "ternoa-wallet-generator",
+	"version": "1.0.0",
+	"description": "generate entire wallet",
 	"main": "index.js",
 	"scripts": {
 		"demo": "node demo.js"
 	},
-	"author": "Justin Chow <zhou78620051@126.com>",
+	"author": "Ternoa",
 	"license": "MIT",
 	"dependencies": {
 		"bip39": "^2.5.0",
