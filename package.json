@@ -2,9 +2,9 @@
 	"name": "ternoa-wallet-generator",
 	"version": "1.0.0",
 	"description": "generate entire wallet",
-	"main": "index.js",
+	"main": "wallet.js",
 	"scripts": {
-		"demo": "node demo.js"
+		"demo": "node wallet.js"
 	},
 	"author": "Ternoa",
 	"license": "MIT",
